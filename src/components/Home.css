@@ -1,0 +1,76 @@
+
+
+.home {
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+      height: 100px;   
+    /* This ensures the container takes the full height of the viewport */
+    margin: 20px;
+  
+   
+   
+  }
+  
+  .info {
+     font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    font-size: 26px; /* Adjust the font size as needed */
+    margin-top: 30vh; /* Pushes the text to the top */
+  }
+  
+  .add-task-button {
+    margin-top: 30vh;
+    margin-left: 150vh;
+    background-color: rgb(40, 27, 87);
+    color: #fff;
+    border: none;
+    padding: 15px;
+    font-size: 60px;
+    cursor: pointer;
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    animation: pulse 2s infinite; /* 2s duration, infinite iterations */
+  
+    /* Other styles... */
+  }
+  
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2); /* Scale up to 1.2 at 50% of the animation */
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+
+  @media screen and (max-width: 768px) {
+    .add-task-button {
+      margin-left: 20px; /* Adjust the left margin for small screens */
+      font-size: 30px; /* Adjust the font size for small screens */
+      height: 60px; /* Adjust the height for small screens */
+      width: 60px; /* Adjust the width for small screens */
+      border-radius: 30px; /* Adjust the border-radius for small screens */
+    }
+
+    .info{
+        font-size: 14px;
+
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .add-task-button {
+      margin-left: 30vh; /* Adjust the left margin for small screens */
+    }
+  }
+  
+  

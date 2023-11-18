@@ -1,0 +1,39 @@
+/* src/components/Header.css */
+.header {
+  height: 70px;
+  background-color: rgb(40, 27, 87);
+  color: #fff;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.left-side img {
+  width: 40px; /* Set the desired width for the image */
+  height: 40px; /* Set the desired height for the image */
+  margin-right: 10px; /* Set the desired margin between the image and the text */
+}
+.left-side {
+  display: flex;
+  align-items: center;
+}
+
+.left-side p {
+  margin: 0;
+  font-weight: bold;
+  font-size: 26px; /* Adjust the font size as needed */
+  font-style: italic;
+}
+
+.right-side {
+  
+  display: flex;
+  align-items: center;
+
+}
+
+.avatar {
+  background-color: #fff;
+  font-size: 24px; /* Adjust the font size of the Avatar */
+
+}

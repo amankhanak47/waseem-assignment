@@ -1,0 +1,96 @@
+.aman{
+  /* background-color: rgba(0, 0, 255, 0.193); */
+  
+  /* background-color: rgb(40, 27, 87); */
+}
+
+
+
+.task-manager-container {
+
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    font-style: italic;
+    color: #ddd;
+    
+  }
+  
+  .task-inputs {
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+  
+  /* .task-inputs input,
+  .task-inputs textarea,
+  .task-inputs select, */
+  .task-inputs button {
+    margin: 30px 0px;
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius:  20px;
+    cursor: pointer;
+    font-size: 20px;
+    font-style: italic;
+   
+
+  }
+
+ 
+  
+  .description-input {
+    border: 1px solid black;
+    padding: 8px;
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    border-radius: 100px; /* Added border-radius */
+  }
+  
+  .task-list {
+    margin-top: 20px;
+  }
+  
+  .task,
+  .completed-task {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .completed-task {
+    background-color: #e0e0e0;
+    opacity: 0.7;
+  }
+
+  .category-image img {
+    width: 100px; /* Adjust the width as needed */
+    height: 100px; /* Adjust the height as needed */
+    margin-right: 10px;
+    margin: auto;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 600px) {
+    .task-inputs input,
+    .task-inputs textarea,
+    .task-inputs select,
+    .task-inputs button,
+    .description-input {
+      width: 100%;
+    }
+  }
+  
+
+
+
+
+
+
+
+
+  
